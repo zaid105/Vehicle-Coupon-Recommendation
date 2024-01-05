@@ -7,7 +7,7 @@ Cynthia Rudin, cynthia '@' cs.duke.edu, Duke University<br>
 <br><br>
 Data Set Information:
 <br><br>
-This data was collected via a survey on Amazon Mechanical Turk. The survey describes different driving scenarios including the destination, current time, weather, passenger, etc., and then ask the person whether he will accept the coupon if he is the driver. For more information about the dataset, please refer to the paper:<br>
+This data was collected via a survey on Amazon Mechanical Turk. The survey describes different driving scenarios including the destination, current time, weather, passenger, etc., and then ask the person whether he will accept the coupon if he is the driver. <br>
 Wang, Tong, Cynthia Rudin, Finale Doshi-Velez, Yimin Liu, Erica Klampfl, and Perry MacNeille. 'A bayesian framework for learning rule sets for interpretable classification.' The Journal of Machine Learning Research 18, no. 1 (2017): 2357-2393.
 <br><br>
 # Attribute Information:
@@ -41,9 +41,16 @@ Bar: never, less1, 1~3, gt8, nan4~8 (feature meaning: how many times do you go t
 CoffeeHouse: never, less1, 4~8, 1~3, gt8, nan (feature meaning: how many times do you go to a coffeehouse every month?)<br>
 CarryAway:n4~8, 1~3, gt8, less1, never (feature meaning: how many times do you get take-away food every month?)<br>
 RestaurantLessThan20: 4~8, 1~3, less1, gt8, never (feature meaning: how many times do you go to a restaurant with an average expense per person of less than $20 every month?)<br>
-Restaurant20To50: 1~3, less1, never, gt8, 4~8, nan (feature meaning: how many times do you go to a restaurant with average expense per person of $20 - $50 every month?)<br>
+Restaurant20To50: 1~3, less1, never, gt8, 4~8, nan (feature meaning: how many times do you go to a restaurant with average expense per person of $20 - $50 every month?)<br><br>
 toCoupon_GEQ15min:0,1 (feature meaning: driving distance to the restaurant/bar for using the coupon is greater than 15 minutes)<br>
 toCoupon_GEQ25min:0, 1 (feature meaning: driving distance to the restaurant/bar for using the coupon is greater than 25 minutes)<br>
 direction_same:0, 1 (feature meaning: whether the restaurant/bar is in the same direction as your current destination)<br>
 direction_opp:1, 0 (feature meaning: whether the restaurant/bar is in the same direction as your current destination)<br>
-Y:1, 0 (whether the coupon is accepted)<br>
+Y:1, 0 (whether the coupon is accepted)<br><br>
+## Key Features
+
+- **Exploratory Data Analysis (EDA):** Detailed exploration of the dataset to understand distributions, correlations, and patterns.
+- **Feature Engineering:** Creation of new features or transformations to enhance model performance.
+- **Data Visualization:** Visual representations of key insights and trends using charts and graphs.
+- **Hypothesis**: Test Null Hypothesis
+
